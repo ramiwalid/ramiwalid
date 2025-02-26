@@ -1,7 +1,7 @@
-## Hi there 👋
+## Hi there 👋, I'm Rami!
 
 <!--
-**ramiwalid/ramiwalid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a Computer Science student at New Jersey Institute of Technology! I am an aspiring Software Engineer, who works with various programming langugages, such as Java, JavaScript, HTMl/CSS, and more.
 
 Here are some ideas to get you started:
 
