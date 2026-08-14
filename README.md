@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Rami!
 
-I'm a third-year Computer Science student at New Jersey Institute of Technology! I'm an aspiring Software Engineer who works with various programming langugages, such as Java, JavaScript, HTMl/CSS, and more.
+I'm a fourth-year Computer Science student at New Jersey Institute of Technology! I'm an aspiring Software Engineer who works with various programming langugages, such as Java, JavaScript, HTMl/CSS, and more.
 
 ## Skills
 <div align="center">
