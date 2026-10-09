@@ -1,14 +1,22 @@
-# 👋 Hi there, I'm Rami!
+# Hi, I'm Rami Walid 👋
 
-I'm a fourth-year Computer Science student at New Jersey Institute of Technology! I'm an aspiring Software Engineer who works with various programming langugages, such as Java, JavaScript, HTMl/CSS, and more.
+**Computer Science & Applied Statistics student building AI-agentic frameworks, security evaluation pipelines, and full-stack platforms.**
 
-## Skills
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Java-8A2BE2"> <img src="https://img.shields.io/badge/JavaScript-blue"> <img src="https://img.shields.io/badge/Python-white"> <img src="https://img.shields.io/badge/HTMl-green"> <img src="https://img.shields.io/badge/CSS-yellow"> <img src="https://img.shields.io/badge/SQL-orange"> <img src="https://img.shields.io/badge/C++-black"> <br /> <img src="https://img.shields.io/badge/Swift-red"> <img src="https://img.shields.io/badge/Vue.js-random"> <img src="https://img.shields.io/badge/Animate.css-darkgreen"> <img src="https://img.shields.io/badge/Chart.js-darkblue"> <img src="https://img.shields.io/badge/REACT.js-purple"> <img src="https://img.shields.io/badge/Figma-grey"> <img src="https://img.shields.io/badge/Git/Github-silver"> <br /> <img src="https://img.shields.io/badge/Bootstrap-teal"> <img src="https://img.shields.io/badge/Excel-darkgreen"> <img src="https://img.shields.io/badge/macOS-white"> 
-      </td>
-    </tr>
-  </table>
-</div>
+Currently studying at NJIT (Expected May 2027) and researching AI Security. Previously a Software Engineer Intern at Fiserv.
+
+### 🛠️ Core Stack
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![LangGraph](https://img.shields.io/badge/LangGraph-black?style=for-the-badge)
+
+### 🏗️ Featured Work & Research
+* **AI Security Evaluation Framework:** Architecting an agentic testing pipeline using LangGraph, Promptfoo, and Playwright to benchmark AI web-browsing agents against indirect prompt injections[cite: 1].
+* **Credit Card Aggregator:** A full-stack finance dashboard (Next.js, FastAPI, PostgreSQL) with OAuth2 authorization and tokenized data pipelines to centralize multi-institution transaction data[cite: 1].
+* **Math Extraction Engine:** An AWS EC2-hosted Java application that automatically parses complex mathematical equations from source documents[cite: 1].
+* **Fiserv Vulnerability Remediation:** (Private Enterprise Work) Architected an AI-agent-based remediation tool in Java/Spring Boot to automatically ingest security scans and apply code fixes[cite: 1].
+
+### 📊 GitHub Activity
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ramiwalid&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true)
