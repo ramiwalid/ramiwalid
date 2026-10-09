@@ -1,22 +1,39 @@
-# Hi, I'm Rami Walid 👋
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=3670A0&center=true&vCenter=true&width=600&lines=ramiwalid.execute();+Initializing+Agentic+Framework...;+Compiling+SADAL...;+Access+Granted." alt="Typing SVG" />
+</div>
 
-**Computer Science & Applied Statistics student building AI-agentic frameworks, security evaluation pipelines, and full-stack platforms.**
+```python
+#!/usr/bin/env python3
+# User Profile Initialization for Rami Walid[cite: 1]
 
-Currently studying at NJIT (Expected May 2027) and researching AI Security. Previously a Software Engineer Intern at Fiserv.
+class Developer:
+    def __init__(self):
+        self.name = "Rami Walid" #[cite: 1]
+        self.role = "AI Security Researcher & Full-Stack Engineer"
+        self.education = "NJIT (CS & Applied Statistics) - Expected May 2027" #[cite: 1]
+        self.environment = "Zsh + Neovim on M3 Pro"
+        
+    def get_current_research(self):
+        """
+        Architecting agentic evaluation frameworks to benchmark 
+        indirect prompt injections against AI web agents.[cite: 1]
+        """
+        return ["Python", "LangGraph", "Promptfoo", "Playwright"] #[cite: 1]
+        
+    def get_enterprise_experience(self):
+        """
+        Engineered AI-agent vulnerability remediation pipelines 
+        for the TransArmor team at Fiserv.[cite: 1]
+        """
+        return ["Java", "Spring Boot", "GitLab CI/CD"] #[cite: 1]
 
-### 🛠️ Core Stack
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![LangGraph](https://img.shields.io/badge/LangGraph-black?style=for-the-badge)
+    def load_active_projects(self):
+        return {
+            "Credit Card Aggregator": "Next.js, FastAPI, PostgreSQL", #[cite: 1]
+            "SADAL Compiler": "Custom compiler built in C++", #[cite: 1]
+            "Math Extraction Engine": "AWS EC2 hosted Java parser" #[cite: 1]
+        }
 
-### 🏗️ Featured Work & Research
-* **AI Security Evaluation Framework:** Architecting an agentic testing pipeline using LangGraph, Promptfoo, and Playwright to benchmark AI web-browsing agents against indirect prompt injections[cite: 1].
-* **Credit Card Aggregator:** A full-stack finance dashboard (Next.js, FastAPI, PostgreSQL) with OAuth2 authorization and tokenized data pipelines to centralize multi-institution transaction data[cite: 1].
-* **Math Extraction Engine:** An AWS EC2-hosted Java application that automatically parses complex mathematical equations from source documents[cite: 1].
-* **Fiserv Vulnerability Remediation:** (Private Enterprise Work) Architected an AI-agent-based remediation tool in Java/Spring Boot to automatically ingest security scans and apply code fixes[cite: 1].
-
-### 📊 GitHub Activity
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ramiwalid&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true)
+if __name__ == "__main__":
+    rami = Developer()
+    rami.execute_next_build()
