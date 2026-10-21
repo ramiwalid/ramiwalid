@@ -25,7 +25,7 @@ class Developer:
         Engineered AI-agent vulnerability remediation pipelines 
         for the TransArmor team at Fiserv.[cite: 1]
         """
-        return ["Java", "Spring Boot", "GitLab CI/CD"] #[cite: 1]
+        return ["Java", "Spring Boot", "TypeScript", "Next.js", "GitLab CI/CD"] #[cite: 1]
 
     def load_active_projects(self):
         return {
