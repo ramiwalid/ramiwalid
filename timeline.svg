@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace">
+<defs>
+<linearGradient id="ag" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5d4"/><stop offset=".5" stop-color="#7b61ff"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07060f"/><stop offset="1" stop-color="#14123a"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+
+</defs>
+<rect width="1200" height="270" rx="18" fill="url(#bg)"/><rect x=".5" y=".5" width="1199" height="269" rx="18" fill="none" stroke="#2a2750"/>
+<line x1="100" y1="135" x2="1060" y2="135" stroke="#2a2750" stroke-width="4" stroke-linecap="round"/><line x1="100" y1="135" x2="1060" y2="135" stroke="url(#ag)" stroke-width="4" stroke-linecap="round" stroke-dasharray="960" stroke-dashoffset="0" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="960;0;0;960" keyTimes="0;.3;.9;1" dur="10s" repeatCount="indefinite"/></line><circle r="6" fill="#fff" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" path="M100,135 H1060"/></circle><line x1="100" y1="125" x2="100" y2="93" stroke="#00f5d4" stroke-opacity=".6"/><text x="100" y="44" font-size="12" fill="#00f5d4" text-anchor="middle" font-weight="700" letter-spacing="3">SEP 2024</text>
+<text x="100" y="68" font-size="17" fill="#e8e8f5" text-anchor="middle" font-weight="700" >Starts B.S. in CS</text>
+<text x="100" y="88" font-size="12" fill="#8b8ba7" text-anchor="middle" font-weight="400" >NJIT · Applied Stats minor</text>
+<circle cx="100" cy="135" r="10" fill="#07060f" stroke="#00f5d4" stroke-width="3"/><circle cx="100" cy="135" r="4" fill="#00f5d4"/><line x1="340" y1="145" x2="340" y2="177" stroke="#7b61ff" stroke-opacity=".6"/><text x="340" y="188" font-size="12" fill="#7b61ff" text-anchor="middle" font-weight="700" letter-spacing="3">NOV 2025</text>
+<text x="340" y="212" font-size="17" fill="#e8e8f5" text-anchor="middle" font-weight="700" >Credit Card Aggregator</text>
+<text x="340" y="232" font-size="12" fill="#8b8ba7" text-anchor="middle" font-weight="400" >Next.js · FastAPI · Postgres</text>
+<circle cx="340" cy="135" r="10" fill="#07060f" stroke="#7b61ff" stroke-width="3"/><circle cx="340" cy="135" r="4" fill="#7b61ff"/><line x1="580" y1="125" x2="580" y2="93" stroke="#ff4d8d" stroke-opacity=".6"/><text x="580" y="44" font-size="12" fill="#ff4d8d" text-anchor="middle" font-weight="700" letter-spacing="3">JAN 2026</text>
+<text x="580" y="68" font-size="17" fill="#e8e8f5" text-anchor="middle" font-weight="700" >Undergrad Researcher</text>
+<text x="580" y="88" font-size="12" fill="#8b8ba7" text-anchor="middle" font-weight="400" >Java · AWS EC2 · 90% faster</text>
+<circle cx="580" cy="135" r="10" fill="#07060f" stroke="#ff4d8d" stroke-width="3"/><circle cx="580" cy="135" r="4" fill="#ff4d8d"/><line x1="820" y1="145" x2="820" y2="177" stroke="#ffb84d" stroke-opacity=".6"/><text x="820" y="188" font-size="12" fill="#ffb84d" text-anchor="middle" font-weight="700" letter-spacing="3">JUN 2026</text>
+<text x="820" y="212" font-size="17" fill="#e8e8f5" text-anchor="middle" font-weight="700" >SWE Intern · Fiserv</text>
+<text x="820" y="232" font-size="12" fill="#8b8ba7" text-anchor="middle" font-weight="400" >TransArmor · AI remediation agents</text>
+<circle cx="820" cy="135" r="10" fill="#07060f" stroke="#ffb84d" stroke-width="3"/><circle cx="820" cy="135" r="4" fill="#ffb84d"/><line x1="1060" y1="125" x2="1060" y2="93" stroke="#7bf1a8" stroke-opacity=".6"/><text x="1060" y="44" font-size="12" fill="#7bf1a8" text-anchor="middle" font-weight="700" letter-spacing="3">SEP 2026</text>
+<text x="1060" y="68" font-size="17" fill="#e8e8f5" text-anchor="middle" font-weight="700" >AI Security Researcher</text>
+<text x="1060" y="88" font-size="12" fill="#8b8ba7" text-anchor="middle" font-weight="400" >agent red-teaming · NOW</text>
+<circle cx="1060" cy="135" r="10" fill="#07060f" stroke="#7bf1a8" stroke-width="3"/><circle cx="1060" cy="135" r="4" fill="#7bf1a8"/><circle cx="1060" cy="135" r="10" fill="none" stroke="#7bf1a8" stroke-width="2"><animate attributeName="r" values="10;26;10" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="2.4s" repeatCount="indefinite"/></circle><text x="1176" y="256" font-size="10" fill="#8b8ba7" text-anchor="end" font-weight="400" >spacing not to scale</text>
+</svg>
