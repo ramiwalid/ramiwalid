@@ -1,183 +1,131 @@
-<div align="center">
+<!--
+  Rami Walid · GitHub profile README
+  Needs the /assets folder next to this file (repo: ramiwalid/ramiwalid).
+  Visuals are hand-built animated SVGs, so they work on GitHub with no external services.
+-->
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0f0c29,50:302b63,100:00f5d4&text=Rami%20Walid&fontColor=ffffff&fontSize=66&fontAlignY=45&desc=breaking%20AI%20agents%20so%20they%20can't%20be%20broken&descAlignY=68&descSize=18&animation=fadeIn" width="100%" alt="header"/>
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Rami Walid: Software Engineer and AI Security Researcher"/>
+</p>
 
-<a href="https://github.com/ramiwalid">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=00F5D4&center=true&vCenter=true&width=700&lines=%3E+red-teaming+web-browsing+AI+agents;%3E+securing+payments+at+300M%2B+txns+%2F+day;%3E+CS+%40+NJIT+%C2%B7+2x+NSF+Scholar;%3E+status%3A+online+%26+open+to+opportunities" alt="typing"/>
-</a>
+<p align="center">
+  <a href="https://linkedin.com/in/ramiwalid"><img src="https://img.shields.io/badge/LinkedIn-0b0a1e?style=for-the-badge&logo=linkedin&logoColor=00f5d4" alt="LinkedIn"/></a>
+  <a href="mailto:ramiwalid5@pm.me"><img src="https://img.shields.io/badge/Email-0b0a1e?style=for-the-badge&logo=protonmail&logoColor=7b61ff" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=ramiwalid&style=for-the-badge&color=0b0a1e&labelColor=0b0a1e&label=VISITORS" alt="Visitors"/>
+</p>
 
 <br/>
 
-![Visitors](https://komarev.com/ghpvc/?username=ramiwalid&style=flat-square&color=00f5d4&label=VISITORS)
-![Followers](https://img.shields.io/github/followers/ramiwalid?style=flat-square&color=302b63&labelColor=0f0c29&logo=github)
-![Stars](https://img.shields.io/github/stars/ramiwalid?style=flat-square&color=302b63&labelColor=0f0c29&logo=starship)
+<img src="assets/h1.svg" width="100%" alt="01 // Current mission"/>
 
-</div>
+### Red-teaming AI agents that browse the web
 
----
+I'm an undergraduate researcher at NJIT's Ying Wu College of Computing studying **indirect prompt injection**: what happens when an autonomous agent reads a web page that was written to hijack it. I'm building a fully agentic evaluation framework that deploys agents into live and local environments and measures how they hold up against adversarial content.
 
-## `// 01 — OPERATOR_PROFILE`
+<img src="assets/pipeline.svg" width="100%" alt="Pipeline: browsing agent, live and local web, injected content, Promptfoo test harness, robustness score, then harden and repeat"/>
 
-<table>
-<tr>
-<td width="58%">
+- **Automated red-teaming:** pipelines that send agents out to browse and systematically test their susceptibility to injected instructions
+- **Reproducible benchmarks:** Promptfoo evaluation suites that score agent robustness across deployment conditions
+- **Stack:** `Python` · `LangGraph` · `Playwright` · `browser-use` · `Promptfoo`
 
-```yaml
-operator:   Rami Walid
-role:       Software Engineer · AI Security Researcher
-university: New Jersey Institute of Technology
-degree:     B.S. Computer Science, Minor Applied Statistics
-grad:       May 2027
-honors:     2x NSF Scholar
-focus:      [ agentic AI, prompt injection, secure systems ]
-status:     ● ONLINE
-```
+<br/>
 
-</td>
-<td width="42%">
+<img src="assets/h2.svg" width="100%" alt="02 // Impact"/>
 
-```text
-┌────────────────────────────────┐
-│  AI SECURITY   ██████████████  │
-│  BACKEND       █████████████░  │
-│  FULL-STACK    ████████████░░  │
-│  DEVOPS / CICD ███████████░░░  │
-│  COFFEE        ██████████████  │
-└────────────────────────────────┘
-```
+<img src="assets/impact.svg" width="100%" alt="Impact: 300M+ transactions per day secured, 85% faster deployments, 12 core apps remediated, 90% less manual analysis"/>
 
-</td>
-</tr>
-</table>
+At **Fiserv**, on the TransArmor team that secures payments for the world's largest merchants, I built an AI-agent vulnerability remediation tool (`Java` · `Spring Boot` · `Maven`) that connects **Fortify, Jira and GitLab**. It ingests security scans, assigns remediation dates, files tickets, applies real code fixes and opens merge requests, all inside a strict **PCI DSS** environment.
 
----
+<br/>
 
-## `// 02 — ACTIVE_MISSION: RED-TEAMING AI AGENTS`
+<img src="assets/h3.svg" width="100%" alt="03 // Timeline"/>
 
-> **Undergraduate Researcher, AI Security & Agentic Systems** · NJIT Ying Wu College of Computing · *Sep 2026 – Present*
-
-I'm building a fully agentic evaluation framework to study **indirect prompt injection** in web-browsing AI agents: what happens when an autonomous agent reads a page that's been weaponized against it.
-
-```mermaid
-%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#302b63','primaryTextColor':'#fff','lineColor':'#00f5d4','primaryBorderColor':'#00f5d4'}}}%%
-flowchart LR
-    A([🤖 Browsing Agent<br/>LangGraph + browser-use]) --> B[[🌐 Live / Local Web<br/>Playwright]]
-    B --> C{{☣️ Injected Content}}
-    C --> D[📊 Promptfoo Evals]
-    D --> E([🛡️ Robustness Score])
-    E -.harden.-> A
-```
-
-- 🔴 Automated **red-teaming pipelines** that send agents into live and local environments to measure susceptibility to adversarial content
-- 🧪 **Reproducible test harnesses** (Promptfoo) to benchmark agent robustness across deployment conditions
-- 🧰 `Python` · `LangGraph` · `Playwright` · `browser-use` · `Promptfoo`
-
----
-
-## `// 03 — MISSION_LOG`
+<img src="assets/timeline.svg" width="100%" alt="Timeline from Sep 2024 to Sep 2026"/>
 
 <details open>
-<summary><b>🏦 Software Engineer Intern @ Fiserv</b> — TransArmor team · <i>Jun – Aug 2026</i></summary>
+<summary><b>AI Security & Agentic Systems Researcher</b> · NJIT Ying Wu College of Computing · <i>Sep 2026 – present</i></summary>
 <br/>
 
-Worked on the team that encrypts and secures **300M–400M payment transactions per day** for some of the world's largest merchants.
-
-| Built | Impact |
-|:--|:--|
-| 🤖 **AI-agent vulnerability remediation tool** (Java, Spring Boot, Maven) wired into Fortify, Jira & GitLab | Ingests scans, assigns remediation dates, opens tickets, and applies **real code fixes** across **12 core apps** |
-| 🔁 **End-to-end auto-remediation** with agents submitting GitLab merge requests | Security compliance gaps cut from **weeks to hours** |
-| ⚙️ **CI/CD + DevOps automation** via Harness | Deploy time down **85%**, saving **~20 hrs/week** |
-| 📉 Compliance-grade rollout in a strict **PCI DSS** environment | Projected **80% less manual effort** |
+- Architecting an agentic evaluation framework (`Python`, `LangGraph`, `Playwright`, `browser-use`, `Promptfoo`) to study indirect prompt injection in web-browsing agents
+- Designing red-teaming pipelines that deploy agents to live and local environments to evaluate how they respond to adversarial content during autonomous navigation
+- Building reproducible test harnesses and evaluation suites to benchmark robustness against injected or malicious content
 
 </details>
 
 <details>
-<summary><b>🧮 Undergraduate Researcher, Java Developer @ NJIT</b> — <i>Jan – May 2026</i></summary>
+<summary><b>Software Engineer Intern</b> · Fiserv, TransArmor team · <i>Jun – Aug 2026</i></summary>
 <br/>
 
-- Deployed an **AWS EC2-hosted Java app** giving NJIT students and faculty department-wide access to a math extraction engine
-- Built the engine to **parse complex equations from source documents**, cutting manual analysis time by **90%+**
-- Refactored the automated test suite for better coverage and reliability, with fewer regressions for downstream users
+- Worked on the team that encrypts and secures **300M–400M payment transactions per day**
+- Built an **AI-agent vulnerability remediation tool** integrating Fortify, Jira and GitLab, applying real fixes across **12 core applications**
+- Agents apply fixes and submit GitLab merge requests end to end, cutting security compliance gaps **from weeks to hours**
+- Automated CI/CD and DevOps workflows with Harness: **85% faster deployments**, saving **20 hours/week**
+- Projected **80% reduction in manual effort**, reclaiming **1,152 developer hours** and **108 manager hours** annually
 
 </details>
 
----
-
-## `// 04 — FEATURED_BUILD`
-
-### 💳 Credit Card Aggregator &nbsp;·&nbsp; *Nov 2025 – Present*
-
-A full-stack finance platform that pulls multi-institution credit card data into one unified dashboard.
-
-```text
- ┌──────────────┐    OAuth2     ┌──────────────┐    SQL    ┌──────────────┐
- │ Next.js/React│ ───────────▶  │   FastAPI    │ ───────▶  │  PostgreSQL  │
- │  + Tailwind  │ ◀───────────  │ tokenized    │ ◀───────  │  normalized  │
- └──────────────┘   dashboards  │  pipelines   │           └──────────────┘
-                                └──────────────┘
-```
-
-- 🔐 Secure FastAPI backend with **OAuth2 authorization** and tokenized data pipelines
-- 🗄️ Normalized PostgreSQL schema for seamless multi-source aggregation
-- 📈 Visualizes balance, credit utilization and payment dates, with **25% fewer re-renders** from optimized React components
-
-`Next.js` `TypeScript` `React` `Tailwind` `FastAPI` `PostgreSQL`
-
----
-
-## `// 05 — LOADOUT`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,java,c,cpp,js,ts,swift,html,css,react,nextjs,nodejs,vue,fastapi,flask,spring,tailwind,bootstrap&perline=9" alt="languages and frameworks"/>
+<details>
+<summary><b>Undergraduate Researcher, Java Developer</b> · NJIT Ying Wu College of Computing · <i>Jan – May 2026</i></summary>
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,aws,gcp,docker,git,gitlab,linux,bash,pandas&perline=9" alt="infra"/>
 
-</div>
+- Deployed an **AWS EC2-hosted Java app** giving students and faculty department-wide access to a mathematical extraction engine
+- Built the engine to identify and parse complex equations from source documents, cutting manual analysis by **90%+**
+- Refactored the automated test suite to improve coverage and reliability, reducing regressions for downstream users
 
-| Layer | Tools |
+</details>
+
+<br/>
+
+<img src="assets/h4.svg" width="100%" alt="04 // Featured build"/>
+
+### Credit Card Aggregator &nbsp;·&nbsp; <sub>Nov 2025 – present</sub>
+
+A full-stack finance platform that consolidates credit card data from multiple institutions into one dashboard.
+
+<img src="architecture.svg" width="100%" alt="Architecture: institutions feed a FastAPI backend with OAuth2, stored in PostgreSQL, shown in a Next.js dashboard"/>
+
+- **Backend:** secure `FastAPI` service with OAuth2 authorization and tokenized data pipelines
+- **Data:** normalized `PostgreSQL` schema built for seamless multi-source aggregation
+- **Frontend:** `Next.js` + `React` + `Tailwind` charts for balance, credit utilization and payment dates, with **25% fewer re-renders** after optimization
+
+<br/>
+
+<img src="assets/h5.svg" width="100%" alt="05 // Loadout"/>
+
+<img src="assets/stack.svg" width="100%" alt="Scrolling skill chips"/>
+
+| | |
 |:--|:--|
-| **Languages** | Python · Java · C/C++ · SQL · JavaScript · TypeScript · Swift · HTML/CSS |
-| **AI / ML & Agents** | LangGraph · Promptfoo · Playwright · browser-use · LLM Agents · Pandas |
-| **Web** | React · Next.js · Node.js · FastAPI · Flask · Vue.js · Spring Boot · Tailwind |
+| **Languages** | Python · Java · C/C++ · SQL · JavaScript · TypeScript · HTML/CSS · Swift |
+| **AI & agents** | LangGraph · Promptfoo · Playwright · browser-use · LLM agents · Pandas |
+| **Web** | React · Next.js · Node.js · FastAPI · Flask · Vue.js · Spring Boot · Tailwind · Bootstrap |
 | **Cloud & DevOps** | AWS (EC2) · Google Cloud · Docker · Git · CI/CD · Harness · GitLab · Linux/Bash |
-| **Security** | AI Security · Prompt Injection · Red-Teaming · PCI DSS-aware engineering |
-| **Coursework** | Advanced DSA · Linux Programming in C · Advanced Databases · Computer Architecture · Operating Systems |
+| **Security** | AI security · prompt injection · red-teaming · PCI DSS-aware engineering |
+| **Coursework** | Advanced Data Structures & Algorithms · Linux Programming in C · Advanced Databases · Computer Architecture · Operating Systems |
 
----
-
-## `// 06 — TELEMETRY`
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ramiwalid&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=00f5d4&icon_color=00f5d4&ring_color=00f5d4&text_color=ffffff" alt="stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramiwalid&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=00f5d4&text_color=ffffff" alt="langs"/>
-
-<img src="https://streak-stats.demolab.com?user=ramiwalid&theme=tokyonight&hide_border=true&background=0f0c29&ring=00f5d4&fire=ff6b6b&currStreakLabel=00f5d4" alt="streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ramiwalid&bg_color=0f0c29&color=00f5d4&line=302b63&point=ffffff&area=true&area_color=302b63&hide_border=true" alt="activity"/>
-
-</div>
-
----
-
-## `// 07 — OPEN_CHANNELS`
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-302b63?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ramiwalid)
-[![Email](https://img.shields.io/badge/EMAIL-00f5d4?style=for-the-badge&logo=protonmail&logoColor=0f0c29)](mailto:ramiwalid5@pm.me)
-[![GitHub](https://img.shields.io/badge/GITHUB-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ramiwalid)
+<sub>B.S. Computer Science, minor in Applied Statistics · New Jersey Institute of Technology · expected May 2027 · 2x NSF Scholar · ACM @ NJIT</sub>
 
 <br/>
 
-```text
-$ ping rami --collab
-64 bytes from rami: time=1ms  status=READY_TO_BUILD
-```
+<img src="assets/h6.svg" width="100%" alt="06 // Telemetry"/>
 
-<sub>ACM @ NJIT · open to AI security, agentic systems & backend roles</sub>
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ramiwalid&show_icons=true&hide_border=true&bg_color=0d0b24&title_color=00f5d4&icon_color=7b61ff&text_color=e8e8f5&ring_color=00f5d4" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramiwalid&layout=compact&hide_border=true&bg_color=0d0b24&title_color=00f5d4&text_color=e8e8f5" alt="Top languages"/>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00f5d4,50:302b63,100:0f0c29&section=footer" width="100%" alt="footer"/>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ramiwalid&bg_color=0d0b24&color=00f5d4&line=7b61ff&point=ffffff&area=true&area_color=7b61ff&hide_border=true" width="100%" alt="Contribution activity graph"/>
+</p>
 
-</div>
+<br/>
+
+<img src="assets/h7.svg" width="100%" alt="07 // Contact"/>
+
+<p align="center">
+  <a href="https://linkedin.com/in/ramiwalid"><img src="https://img.shields.io/badge/LinkedIn-ramiwalid-0b0a1e?style=for-the-badge&logo=linkedin&logoColor=00f5d4" alt="LinkedIn"/></a>
+  <a href="mailto:ramiwalid5@pm.me"><img src="https://img.shields.io/badge/Email-ramiwalid5%40pm.me-0b0a1e?style=for-the-badge&logo=protonmail&logoColor=7b61ff" alt="Email"/></a>
+  <a href="https://github.com/ramiwalid"><img src="https://img.shields.io/badge/GitHub-ramiwalid-0b0a1e?style=for-the-badge&logo=github&logoColor=ff4d8d" alt="GitHub"/></a>
+</p>
+
+<img src="assets/footer.svg" width="100%" alt="Let's build things that can't be hacked"/>
