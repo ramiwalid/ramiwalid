@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace">
+<defs>
+<linearGradient id="ag" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5d4"/><stop offset=".5" stop-color="#7b61ff"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07060f"/><stop offset="1" stop-color="#14123a"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+
+</defs>
+<rect x="1" y="1" width="1198" height="62" rx="14" fill="#0d0b24" stroke="#2a2750"/><rect x="1" y="14" width="5" height="36" rx="2.5" fill="#7bf1a8"/><text x="34" y="41" font-size="22" fill="#7bf1a8" text-anchor="start" font-weight="700" >05</text>
+<text x="76" y="41" font-size="22" fill="#8b8ba7" text-anchor="start" font-weight="400" >//</text>
+<text x="112" y="41" font-size="22" fill="#e8e8f5" text-anchor="start" font-weight="700" letter-spacing="3">LOADOUT</text>
+<line x1="247" y1="32" x2="1148" y2="32" stroke="#2a2750" stroke-width="2"/><line x1="247" y1="32" x2="1148" y2="32" stroke="#7bf1a8" stroke-width="2" stroke-dasharray="40 160" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-200" dur="3s" repeatCount="indefinite"/></line><rect x="1156" y="25" width="14" height="14" rx="3" fill="#7bf1a8" transform="rotate(45 1163 32)"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></rect></svg>
