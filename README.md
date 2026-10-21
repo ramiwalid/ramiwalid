@@ -11,7 +11,7 @@ class Developer:
         self.name = "Rami Walid" #[cite: 1]
         self.role = "AI Security Researcher & Full-Stack Engineer"
         self.education = "NJIT (CS & Applied Statistics) - Expected May 2027" #[cite: 1]
-        self.environment = "Zsh + Neovim on M3 Pro"
+        self.environment = "Zsh + Neovim on Apple M3 Pro"
         
     def get_current_research(self):
         """
